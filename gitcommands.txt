@@ -5,10 +5,10 @@ To create a local Git repo
 -> git commit
 
 To add a remote repo to git repo, first log in to github or bit bucket and create the repo.
- then copy the repo url, then execute the follocwing commands. Git remote v checks if the 
+ then copy the repo url, then execute the follocwing commands. Git remote -v checks if the 
 remote repo was added to local successfully.
 -> git remote add origin REPOURL
--> gt remote -v
+-> git remote -v
 
 
 To push from local to remote repo use the following, where master is the branch name.
@@ -18,11 +18,3 @@ To push from local to remote repo use the following, where master is the branch 
 To pull data from remote repo use the following
 
 -> git pull origin master
-
-to rename a remote repo that is to be added to a local repo
-
-->git remote rename origin destination
-
-
-To remove a remote repo from local repo
-->git remote rm destination
