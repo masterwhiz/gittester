@@ -18,3 +18,11 @@ To push from local to remote repo use the following, where master is the branch 
 To pull data from remote repo use the following
 
 -> git pull origin master
+
+to rename a remote repo that is to be added to a local repo
+
+->git remote rename origin destination
+
+
+To remove a remote repo from local repo
+->git remote rm destination
